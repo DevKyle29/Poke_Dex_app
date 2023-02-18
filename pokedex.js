@@ -6,18 +6,13 @@ function logic() {
     let region = document.getElementById("region");
 
 
-    // Will only give objects
-    console.log( name + " - " + type + " - " + region + " region") // remove once you have clear understanding
+
 
 
     // Get String values of variables
     name = name.value;
     type = type.value;
     region = region.value;
-    
-
-    // Can log them since they are now pure Strings
-    console.log( name + " - " + type + " - " + region + " region") // remove once you have clear understanding
 
 /*-----------------------------------------------
  * Add your solution code here
@@ -28,8 +23,22 @@ function logic() {
 				// Use If to ensure input validation (ensure input fields are !empty)
         // Create pokemon object here (const pokemon) using user input Strings
 
+        const pokemon = {
+            name: name,
+            type: type,
+            region: region
+        };
+        
 
         // Create a span element (const pokemonData) and put the pokemon objects properties inside of it
+
+        const pokemonData = document.createElement('span')
+        
+        
+        
+
+        
+         
 
 
 
